@@ -49,9 +49,14 @@ body {
     color: #FFFFFF;
     font-size: 16px;
     margin-right: 150px;
+    box-shadow: inset 0 0 0 0 yellow;
+    transition: ease-out .3s;
 }
 
-.intro-button:hover {}
+.intro-button:hover {
+    box-shadow: inset 168px 0 0 0 yellow;
+    color: black;
+}
 
 .intro-banner img {
     width: 556.01px;
@@ -61,6 +66,7 @@ body {
 
 #arrow-right {
     margin-left: 8px;
+    cursor: pointer;
 }
 
 
@@ -95,4 +101,34 @@ body {
 .blogs-p {
     font-size: 16px;
     color: #6C6C6C;
+}
+
+
+/* Footer Starts */
+
+.football {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.football img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    size: 50px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
