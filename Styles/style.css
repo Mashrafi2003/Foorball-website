@@ -199,27 +199,40 @@ Media Quearies
 
 /* Mobile devices */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:688px) {
     .welcome-section {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-items: flex-start;
+        width: 688px;
     }
     .intro-banner img {
         width: 100%;
     }
-    .blogs,
-    .news,
-    .football {
+    .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .clubs {
+    .news {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    img {
-        width: 100%;
-    }
+}
+
+.football {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.clubs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+    width: 100%;
+}
+
+
 }
