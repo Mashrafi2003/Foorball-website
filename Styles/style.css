@@ -109,7 +109,6 @@ body {
  --------------------------*/
 
 .news-portal {
-    background-color: rgba(95, 158, 160, 0.651);
     margin-bottom: 80px;
 }
 
@@ -191,3 +190,11 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+
+/*---------------------- 
+Media Quearies
+----------------------- */
+
+
+/* Mobile devices */
