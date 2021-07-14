@@ -104,7 +104,66 @@ body {
 }
 
 
+/*-------------------------
+ News Section
+ --------------------------*/
+
+.news-portal {
+    background-color: rgba(95, 158, 160, 0.651);
+    margin-bottom: 80px;
+}
+
+.news-header {
+    font-size: 64px;
+    text-align: center;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info {
+    padding: 30px;
+    box-shadow: 0 0 5px white;
+    margin: 20px;
+}
+
+
+/* CLubs Section */
+
+.clubs-info {
+    margin-bottom: 70px;
+}
+
+.clubs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.clubs-header {
+    font-size: 64px;
+    text-align: center;
+}
+
+.club {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px gray;
+}
+
+.club img {
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+}
+
+
 /* Footer Starts */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.445);
+}
 
 .football {
     display: flex;
