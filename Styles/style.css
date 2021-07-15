@@ -200,14 +200,25 @@ Media Quearies
 /* Mobile devices */
 
 @media screen and (max-width:688px) {
+    .welcome-section,
+    .blogs-container,
+    .news-portal,
+    .clubs-info,
+    footer {
+        width: 100%;
+    }
     .welcome-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .introduction {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        align-items: flex-start;
-        width: 688px;
     }
     .intro-banner img {
+        width: 100%;
+    }
+    body {
         width: 100%;
     }
     .blogs {
@@ -227,11 +238,7 @@ Media Quearies
 
 .clubs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-img {
-    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 
